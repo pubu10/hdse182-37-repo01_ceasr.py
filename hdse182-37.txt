@@ -1,0 +1,24 @@
+inputWord = input("Enter Your Word")
+alp = ["a","b","c","d","e","f","g","h","i",
+       "j","k","l","m","n","o","p","q","r",
+       "s","t","u","v","w","x","y","z"]
+wordCount = 1
+countWordPos = 1
+chart = [range(len(inputWord))]
+while (wordCount <= len(inputWord))
+chart[wordCount] = inputWord/len(inputWord)
+wordCount += wordCount
+
+wordCount = 1
+while len(inputWord) == countWordPos 
+while wordCount >= 26
+pos = chart[countWordPos].index(alp[wordCount],countWordPos)
+if (pos == countWordPos )
+fakPos = wordCount + 3
+fakArry[countWordPos] = fakPos 
+countWordPos = countWordPos + 1
+
+countWordPos = 1
+while len(inputWord) == countWordPos
+print(alp[fakArry[countWordPos]]+= alp[fakArry[countWordPos]] )
+
